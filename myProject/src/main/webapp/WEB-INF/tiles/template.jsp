@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>서가앤쇼핑몰</title>
+<title>서가앤숖</title>
 <style>
 
 </style>

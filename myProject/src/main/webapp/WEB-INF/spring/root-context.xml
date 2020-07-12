@@ -35,7 +35,8 @@
 		<property name="configLocation" value="classpath:config/mybatis-config.xml" />
 		<property name="mapperLocations">
 			<list>
-				<value>classpath:config/mainHome.xml</value>
+<!-- 				<value>classpath:config/mainHome.xml</value> -->
+				<value>classpath:config/userinfo.xml</value>
 			</list>
 		</property>
 	</bean>

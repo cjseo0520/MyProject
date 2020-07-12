@@ -6,7 +6,7 @@
 <head>
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/css/mainHome.css?after" />
-<title>어허</title>
+<title>서가앤숖</title>
 </head>
 <body>
 	<div class="header">
