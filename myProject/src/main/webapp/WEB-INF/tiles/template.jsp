@@ -1,6 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
-<%@ page pageEncoding="utf-8" session="false"%>
-<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
+
 
 <html>
 <head>
@@ -35,7 +36,6 @@
 	</div>
 
 	<script type="text/javascript">
-
 	</script>
 </body>
 </html>

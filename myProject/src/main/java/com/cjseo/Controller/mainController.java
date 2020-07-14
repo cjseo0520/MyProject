@@ -16,9 +16,6 @@ import com.cjseo.dao.userVO;
 @Controller
 public class mainController {
 	
-	@Autowired
-	private userService us;
-
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 
@@ -32,7 +29,7 @@ public class mainController {
 	//회원가입
 	@RequestMapping(value = "/signUp" , method = RequestMethod.POST)
 	public String signUp(userVO userVO) {
-		us.userSignup(userVO);
+//		us.userSignup(userVO);
 		return "signUp";
 	}
 	@RequestMapping("/lostID")

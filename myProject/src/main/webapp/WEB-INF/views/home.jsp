@@ -4,9 +4,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>존예녀</title>
 </head>
 <body>
-
+	<p>
+	메인메뉴
+	</p>
 </body>
 </html>
