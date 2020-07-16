@@ -4,5 +4,15 @@
 		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.cjseo.dao.userDAO">
-
+	<insert id="insertUser" parameterType="com.cjseo.dao.userVO">
+		insert into userinfo
+		(userid,
+		userpw,
+		username,
+		userjumin,
+		useremail,
+		userphone)
+		values
+		(#{udao.userid},#{udao.userpw},#{udao.username},#{udao.userjumin}, #{udao.useremail}, #{udao.userphone})
+	</insert>
 </mapper>

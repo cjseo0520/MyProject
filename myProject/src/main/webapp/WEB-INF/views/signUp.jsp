@@ -14,27 +14,27 @@
 		<p id="topShop">서가앤숖</p>
 		<p id="topLogo">회원가입</p>
 	</div>
-	<form method="POST">
+	<form method="POST" action="${pageContext.request.contextPath }/signUp">
 		<div class="loginData2">
-			<input type="text" id="loginID" class="login" value="" placeholder="아이디(5~12글자)">*
+			<input type="text" name="userid" class="login"  placeholder="아이디(5~12글자)">*
 		</div>
 		<div class="loginData2">
-			<input type="text" id="loginPW" class="login" value="" placeholder="비밀번호(숫자,영문,특수문자 최소8자)">*
+			<input type="password" name="userpw" class="login"  placeholder="비밀번호(숫자,영문,특수문자 최소8자)">*
 		</div>
-		<div class="loginData2">
-			<input type="text" id="loginPW2" class="login" value="" placeholder="비밀번호확인">*
+<!-- 		<div class="loginData2"> -->
+<!-- 			<input type="text" id="loginPW2" class="login" placeholder="비밀번호확인"> -->
+<!-- 		</div> -->
+			<div class="loginData2">
+			<input type="text" name="username" class="login" placeholder="이름">*
 		</div>
 			<div class="loginData2">
-			<input type="text" id="loginName" class="login" value="" placeholder="이름">*
-		</div>
-			<div class="loginData2">
-			<input type="text" id="loginJumin" class="login" value="" placeholder="주민번호">*
+			<input type="text" name="userjumin" class="login" placeholder="주민번호">*
 		</div>
 		<div class="loginData2">
-			<input type="text" id="loginEmail" class="login" value="" placeholder="이메일">*
+			<input type="text" name="useremail" class="login" placeholder="이메일">*
 		</div>
 		<div class="loginData2">
-			<input type="text" id="loginPhone" class="login" value="" placeholder="전화번호">*
+			<input type="text" name="userphone" class="login" placeholder="전화번호">*
 		</div>
 		<div class="loginData2">
 			<input type="submit" id="loginBT" class="login" value="가입완료">

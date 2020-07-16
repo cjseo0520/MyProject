@@ -2,38 +2,19 @@ package com.cjseo.dao;
 
 public class userVO {
 
-	private int sid;
+	
 	private String userid;
-	private String uwerpw;
-	private String userpw2;
+	private String userpw;
 	private String username;
 	private String userjumin;
 	private String useremail;
 	private String userphone;
 	
-	public int getSid() {
-		return sid;
-	}
-	public void setSid(int sid) {
-		this.sid = sid;
-	}
 	public String getUserid() {
 		return userid;
 	}
 	public void setUserid(String userid) {
 		this.userid = userid;
-	}
-	public String getUwerpw() {
-		return uwerpw;
-	}
-	public void setUwerpw(String uwerpw) {
-		this.uwerpw = uwerpw;
-	}
-	public String getUserpw2() {
-		return userpw2;
-	}
-	public void setUserpw2(String userpw2) {
-		this.userpw2 = userpw2;
 	}
 	public String getUsername() {
 		return username;
@@ -58,6 +39,12 @@ public class userVO {
 	}
 	public void setUserphone(String userphone) {
 		this.userphone = userphone;
+	}
+	public String getUserpw() {
+		return userpw;
+	}
+	public void setUserpw(String userpw) {
+		this.userpw = userpw;
 	}
 	
 	
