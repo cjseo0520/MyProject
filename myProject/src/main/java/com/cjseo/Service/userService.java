@@ -15,4 +15,9 @@ public class userService {
 		
 		udao.insertUser(userVO);
 	}
+
+	public void selectUser(userVO userVO) {
+		// TODO Auto-generated method stub
+		udao.selectUser(userVO);
+	}
 }

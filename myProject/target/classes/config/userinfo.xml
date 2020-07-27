@@ -15,4 +15,12 @@
 		values
 		(#{udao.userid},#{udao.userpw},#{udao.username},#{udao.userjumin}, #{udao.useremail}, #{udao.userphone})
 	</insert>
+	
+	<select id="selectUser" parameterType="com.cjseo.dao.userVO" resultType="com.cjseo.dao.userVO">
+		select * from userinfo
+		 where 
+		 userid = #{udao.userid} 
+		 and 
+		 userpw = #{udao.userpw}
+	</select>
 </mapper>

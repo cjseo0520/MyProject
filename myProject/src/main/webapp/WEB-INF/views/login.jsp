@@ -10,16 +10,16 @@
 <title>로그인</title>
 </head>
 <body>
-	<form action="POST">
+	<form method="POST" action="${pageContext.request.contextPath }/login">
 		<div id="topTitle">
 			<p id="topShop">서가앤숖</p>
 			<p id="topLogo">로그인</p>
 		</div>
 		<div class="loginData">
-			<input type="text" id="loginID" class="login" value="" placeholder="아이디를 입력해주세요">
+			<input type="text" id="loginID" name="userid" class="login" value="" placeholder="아이디를 입력해주세요">
 		</div>
 		<div class="loginData">
-			<input type="text" id="loginPW" class="login" value="" placeholder="비밀번호를 입력해주세요">
+			<input type="text" id="loginPW" name="userpw" class="login" value="" placeholder="비밀번호를 입력해주세요">
 		</div>
 		<div class="loginData">
 			<input type="submit" id="loginBT" class="login" value="로그인">
