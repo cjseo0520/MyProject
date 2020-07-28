@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="header">
-		<p>header</p>
+	
 	</div>
 	<div class="baner">
 		<p>baner</p>

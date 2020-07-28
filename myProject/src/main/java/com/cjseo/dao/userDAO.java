@@ -6,5 +6,5 @@ public interface userDAO {
 
 	void insertUser(@Param("udao")userVO userVO);
 
-	void selectUser(@Param("udao")userVO userVO);
+	userVO login(@Param("udao")userVO userVO);
 }

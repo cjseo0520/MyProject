@@ -2,13 +2,14 @@ package com.cjseo.dao;
 
 public class userVO {
 
-	
 	private String userid;
 	private String userpw;
 	private String username;
 	private String userjumin;
 	private String useremail;
 	private String userphone;
+	//쿠키기억
+	private boolean rememberID; 
 	
 	public String getUserid() {
 		return userid;
@@ -45,6 +46,12 @@ public class userVO {
 	}
 	public void setUserpw(String userpw) {
 		this.userpw = userpw;
+	}
+	public boolean isRememberID() {
+		return rememberID;
+	}
+	public void setRememberID(boolean rememberID) {
+		this.rememberID = rememberID;
 	}
 	
 	

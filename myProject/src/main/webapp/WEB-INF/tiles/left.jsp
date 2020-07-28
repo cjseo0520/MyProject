@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div id="userInfo">
-		<div id="userWelcom"><label>서창재님 안녕하세요</label></div>
+		<div id="userWelcom"><label>${member.username}님 안녕하세요</label></div>
 		<table id="userTable">
 			<tr>
 				<td>적립금</td>

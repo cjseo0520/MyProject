@@ -14,7 +14,7 @@
 		<p id="topShop">서가앤숖</p>
 		<p id="topLogo">회원가입</p>
 	</div>
-	<form method="POST" action="${pageContext.request.contextPath }/signUp">
+	<form method="POST" action="${pageContext.request.contextPath }/signUp/">
 		<div class="loginData2">
 			<input type="text" name="userid" class="login"  placeholder="아이디(5~12글자)">*
 		</div>

@@ -27,7 +27,7 @@
 				<input type="button" id="review" value="리뷰">
 			</div>
 			<div class="selectTitle">
-				<input type="button" id="login" value="로그인" onclick="location.href='${pageContext.request.contextPath}/login'">
+				<input type="button" id="login" value="로그인" onclick="location.href='${pageContext.request.contextPath}/login/'">
 			</div>
 		</div>
 	</div>
